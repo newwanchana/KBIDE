@@ -2,7 +2,7 @@
 # KBIDE [![Build Status](https://travis-ci.com/MakerAsia/KBProIDE.svg?branch=master)](https://travis-ci.com/MakerAsia/KBProIDE)
 
 ## Windows Install
-use node v10.15.0 (but v8 also work too) and need Anaconda python2
+use node v10.15.0 (but v8 also work too) and need Anaconda python2  (ใช้ node v10.15.0 / NPM v6.14.18) 
 first run CMD as Administrator and install build tool first 
 - git clone --recursive https://github.com/MakerAsia/KBProIDE
 - cd KBProIDE 
