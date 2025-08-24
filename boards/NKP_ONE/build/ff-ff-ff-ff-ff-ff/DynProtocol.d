@@ -1,0 +1,26 @@
+C:\Users\woott\AppData\Local\Programs\KBProIDE\boards\NKP_ONE\build\ff-ff-ff-ff-ff-ff\DynProtocol.o: \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\boards\NKP_ONE\include\Invn\DynamicProtocol\DynProtocol.c \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\boards\NKP_ONE\include\Invn\DynamicProtocol\DynProtocol.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\platforms\arduino-esp32\sdk\include\newlib/stdint.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\platforms\arduino-esp32\sdk\include\newlib/machine/_default_types.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\platforms\arduino-esp32\sdk\include\newlib/sys/features.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\platforms\arduino-esp32\sdk\include\newlib/sys/_intsup.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\boards\NKP_ONE\include/Invn/VSensor/VSensorConfig.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\boards\NKP_ONE\include/Invn/VSensor/VSensorData.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\boards\NKP_ONE\include/Invn/EmbUtils/Message.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\boards\NKP_ONE\include/Invn/InvExport.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\boards\NKP_ONE\include/Invn/EmbUtils/DataConverter.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\boards\NKP_ONE\include/Invn/InvError.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\platforms\arduino-esp32\sdk\include\newlib/string.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\platforms\arduino-esp32\sdk\include\newlib/_ansi.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\platforms\arduino-esp32\sdk\include\newlib/newlib.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\platforms\arduino-esp32\sdk\include\newlib/sys/config.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\platforms\arduino-esp32\sdk\include\newlib/machine/ieeefp.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\platforms\arduino-esp32\sdk\include\esp32/xtensa/config/core-isa.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\platforms\arduino-esp32\sdk\include\newlib/sys/reent.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\platforms\arduino-esp32\sdk\include\newlib/_ansi.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\platforms\arduino-esp32\sdk\include\newlib/sys/_types.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\platforms\arduino-esp32\sdk\include\newlib/machine/_types.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\platforms\arduino-esp32\sdk\include\newlib/sys/lock.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\platforms\arduino-esp32\sdk\include\newlib/sys/cdefs.h \
+ C:\Users\woott\AppData\Local\Programs\KBProIDE\platforms\arduino-esp32\sdk\include\newlib/sys/string.h

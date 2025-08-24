@@ -1,0 +1,17 @@
+{
+  "name" : "KB-Robot",
+  "title": "KB-Robot",
+  "keywords": "Robot, esp32, motor",
+  "description": "บอร์ดเสริมที่ทำให้คุณสร้างหุ่นยนต์ได้ง่ายขึ้น",
+  "category":"Device Control",
+  "git": "https://github.com/PrinceBot-Ratthanin/KBIDERobot-extension/",
+  "author": "PrinceBot",
+  "email": "print081@gmail.com",
+  "url": "https://github.com/PrinceBot-Ratthanin/KBIDERobot-extension/",
+  "version": "1.0.5",
+  "board" : "",
+  "platform": ["arduino-esp32"],
+  "license": "Adafruit",
+  "image" : "/static/display.png",
+  "homepage": "http://www.kbide.org"
+}

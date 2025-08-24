@@ -1,0 +1,102 @@
+const buildSourceFile = async (source_dir, source_file) => {
+  log("Compiling => " + source_file);
+
+  const file_name = getFileName(source_file);
+  const object_file = source_file.replace(source_dir, build_dir) + ".o";
+
+  // สร้างโฟลเดอร์สำหรับไฟล์ .o หากยังไม่มี
+  const object_dir = path.dirname(object_file);
+  if (!fs.existsSync(object_dir)) {
+    mkdirp.sync(object_dir);
+  }
+
+  // เตรียม arguments สำหรับ .rsp file
+  // (ปรับตามชนิดไฟล์ .c, .cpp, .S)
+  let args = [];
+
+  // รวม flags ทั่วไป
+  if (source_file.endsWith(".c")) {
+    args.push("-c");
+    args.push(compiler.warning_flags);
+    args.push(compiler.defines);
+    args.push(compiler.flags);
+    args.push("-MMD");
+    args.push("-std=gnu17");
+  } else if (source_file.endsWith(".cpp")) {
+    args.push("-c");
+    args.push(compiler.warning_flags);
+    args.push(compiler.defines);
+    args.push(compiler.flags);
+    args.push("-MMD");
+    args.push("-std=gnu++17");
+    args.push(build.flags.rtti);
+  } else if (source_file.endsWith(".s") || source_file.endsWith(".S")) {
+    args.push("-c");
+    args.push(compiler.warning_flags);
+    args.push("-g");
+    args.push("-x");
+    args.push("assembler-with-cpp");
+    args.push("-MMD");
+    // สำหรับ .S อาจต้องเพิ่ม includes ที่นี่ด้วย
+    for (const inc of includes_dir) {
+      args.push(`-I"${path.normalize(inc)}"`);
+    }
+  } else {
+    throw new Error("Unknown source file type: " + source_file);
+  }
+
+  // ใส่ includes แบบแยกเป็น -I "path" สำหรับ .c และ .cpp
+  if (!(source_file.endsWith(".s") || source_file.endsWith(".S"))) {
+    for (const inc of includes_dir) {
+      args.push(`-I"${path.normalize(inc)}"`);
+    }
+  }
+
+  // เพิ่ม flags เฉพาะอื่น ๆ
+  args.push(`-DF_CPU=${build.f_cpu}`);
+  args.push(`-DARDUINO=${arduino_version}`);
+  args.push(`-DARDUINO_${build.board}`);
+  args.push(`-DBOARD_NAME="${build.board}"`);
+  args.push(`-DARDUINO_ARCH_${build.arch}`);
+  args.push(build.flags.optimize);
+  args.push(build.wificc);
+
+  // ใส่ไฟล์ source และ output (normalize path และครอบด้วย "")
+  args.push(`"${path.normalize(source_file)}"`);
+  args.push("-o");
+  args.push(`"${path.normalize(object_file)}"`);
+
+  // เขียนไฟล์ .rsp
+  const rspFile = path.join(build_dir, `compile_args_${getName(source_file)}.rsp`);
+  fs.writeFileSync(rspFile, args.join("\n"), "utf8");
+
+  // สร้างคำสั่งคอมไพล์โดยใช้ response file
+  const compilerCmd =
+    source_file.endsWith(".cpp") ? compiler.cpp.cmd : compiler.c.cmd;
+
+  const cmd = `"${compiler.path}${compilerCmd}" @${rspFile}`;
+
+  log(`Run command: ${cmd}`);
+
+  // เรียก execPromise คอมไพล์
+  const { stderr, stdout } = await execPromise(cmd, { cwd: boardDirectory });
+
+  if (stderr) {
+    log(`Compile warnings/errors for ${file_name}:\n${stderr}`);
+  }
+  if (stdout) {
+    log(`Compile output for ${file_name}:\n${stdout}`);
+  }
+
+  // เรียก callback แจ้งสถานะ
+  if (stderr) {
+    cb({
+      file: file_name,
+      error: stderr,
+    });
+  } else {
+    cb(`compiling... ${file_name} ok.`);
+  }
+
+  return object_file;
+};

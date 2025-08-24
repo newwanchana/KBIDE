@@ -1,0 +1,57 @@
+[submodule "platforms/esp-idf"]
+	path = platforms/esp-idf
+	url = https://github.com/MakerAsia/kbpro-esp-idf-platfrom
+[submodule "platforms/arduino-esp32"]
+	path = platforms/arduino-esp32
+	url = https://github.com/MakerAsia/kbpro-arduino-platfrom
+[submodule "boards/kidbright"]
+	path = boards/kidbright
+	url = https://github.com/comdet/kidbright-board-kbide
+[submodule "boards/kbpro"]
+	path = boards/kbpro
+	url = https://github.com/MakerAsia/kbpro-board
+[submodule "boards/kbx"]
+	path = boards/kbx
+	url = https://github.com/cmmakerclub/kbx-board.git
+[submodule "boards/kidbright-arduino"]
+	path = boards/kidbright-arduino
+	url = https://github.com/MakerAsia/kidbright-arduino-board.git
+[submodule "boards/ttgo-t-watcher-v1.2"]
+	path = boards/ttgo-t-watcher-v1.2
+	url = https://github.com/cmmakerclub/ttgo-t-watcher-v1.2-board.git
+[submodule "boards/ttgo-t-watcher-v1.3"]
+	path = boards/ttgo-t-watcher-v1.3
+	url = https://github.com/cmmakerclub/ttgo-t-watcher-v1.3-board
+[submodule "boards/ttgo-t8-v1.1"]
+	path = boards/ttgo-t8-v1.1
+	url = https://github.com/cmmakerclub/ttgo-t8-v1.1-board
+[submodule "boards/ttgo-t8-v1.3"]
+	path = boards/ttgo-t8-v1.3
+	url = https://github.com/cmmakerclub/ttgo-t8-v1.3-board
+[submodule "boards/ttgo-t8-v1.7"]
+	path = boards/ttgo-t8-v1.7
+	url = https://github.com/cmmakerclub/ttgo-t8-v1.7-board
+[submodule "platforms/arduino-avr"]
+	path = platforms/arduino-avr
+	url = https://github.com/MakerAsia/kbide-arduino-avr-platform
+[submodule "boards/arduino-uno"]
+	path = boards/arduino-uno
+	url = https://github.com/KhonKaenMakerClub/kbide-arduino-uno
+[submodule "boards/ipst-wifi"]
+	path = boards/ipst-wifi
+	url = https://github.com/MakerAsia/ipst-wifi-board
+[submodule "boards/arduino-nano"]
+	path = boards/arduino-nano
+	url = https://github.com/cmmakerclub/arduino-nano-board/
+[submodule "boards/arduino-mega"]
+	path = boards/arduino-mega
+	url = https://github.com/cmmakerclub/arduino-mega-board/
+[submodule "packages/kbide-extension-pack"]
+	path = packages/kbide-extension-pack
+	url = https://github.com/cmmc-kbide/kbide-extension-pack
+[submodule "boards/openkb"]
+	path = boards/openkb
+	url = https://github.com/MakerAsia/openkb
+[submodule "boards/kbm5stack"]
+	path = boards/kbm5stack
+	url = https://github.com/MakerAsia/kbm5stack

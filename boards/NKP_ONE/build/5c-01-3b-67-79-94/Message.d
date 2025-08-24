@@ -1,0 +1,25 @@
+C:\Users\print\AppData\Local\Programs\kbide\boards\NKP_ONE\build\5c-01-3b-67-79-94\Message.o: \
+ C:\Users\print\AppData\Local\Programs\kbide\boards\NKP_ONE\include\Invn\EmbUtils\Message.c \
+ C:\Users\print\AppData\Local\Programs\kbide\boards\NKP_ONE\include\Invn\EmbUtils\Message.h \
+ C:\Users\print\AppData\Local\Programs\kbide\boards\NKP_ONE\include/Invn/InvExport.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/stdio.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/_ansi.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/newlib.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/sys/config.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/machine/ieeefp.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/sys/features.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\esp32/xtensa/config/core-isa.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/sys/cdefs.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/machine/_default_types.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/sys/reent.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/_ansi.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/sys/_types.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/machine/_types.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/sys/lock.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/sys/types.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/machine/types.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/sys/sched.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/sys/stdio.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/stdlib.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/machine/stdlib.h \
+ C:\Users\print\AppData\Local\Programs\kbide\platforms\arduino-esp32\sdk\include\newlib/alloca.h

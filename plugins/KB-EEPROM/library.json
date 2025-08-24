@@ -1,0 +1,17 @@
+{
+  "name" : "kbide-EEPROM",
+  "title": "kbide-EEPROM",
+  "keywords": "EEPROM, eeprom",
+  "description": "การเขียนและอ่านข้อมูลจากหน่วยความจำถาวร (ROM)",
+  "category":"Device Control",
+  "git": "https://github.com/PrinceBot-Ratthanin/kbide-EEPROM/",
+  "author": "PrinceBot",
+  "email": "print081@gmail.com",
+  "url": "https://github.com/PrinceBot-Ratthanin/kbide-EEPROM/",
+  "version": "1.0.1",
+  "board" : "",
+  "platform": ["arduino-esp32"],
+  "license": "arduino",
+  "image" : "/static/icon.jpg",
+  "homepage": "http://www.kbide.org"
+}

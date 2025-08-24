@@ -1,0 +1,16 @@
+{
+  "name" : "KB_Exten",
+  "title": "KB_Exten",
+  "keywords": "Robot, esp32, motor",
+  "description": "บอร์ดขยายช่องการเชื่อมต่อสำหรับบอร์ด Kidbright ",
+  "category":"Device Control",
+  "git": "https://github.com/PrinceBot-Ratthanin/KB_Exten/",
+  "author": "PrinceBot",
+  "email": "print081@gmail.com",
+  "url": "https://github.com/PrinceBot-Ratthanin/KB_Exten/",
+  "version": "1.1.0",
+  "board" : "",
+  "platform": ["arduino-esp32"],
+  "image" : "/static/icon.jpg",
+  "homepage": "http://www.kbide.org"
+}

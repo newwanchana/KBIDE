@@ -1,0 +1,10 @@
+{
+  "cflags": [
+    "-I\"{board}/include\"",
+    "-DBOARD_HAS_PSRAM",
+    "-DESP_PLATFORM -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics"
+  ],
+  "libflags": [
+    "-L\"{board}/lib\" -lkbpro_arduino"
+  ]
+}

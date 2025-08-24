@@ -1,0 +1,17 @@
+{
+  "name" : "Neopixel",
+  "title": "Neopixel",
+  "keywords": "ide, esp32, ultrasonic",
+  "description": "Neopixel plugin for KB-IDE",
+  "category":"Display",
+  "git": "https://github.com/cmmc-kbide/kbide-plugin-neopixel/",
+  "author": "original by Adafruit | migrate by bavensky",
+  "email": "",
+  "url": "http://www.kbide.org",
+  "version": "1.0.0",
+  "board" : "",
+  "platform": ["arduino-esp32"],
+  "license": "",
+  "image" : "/static/display.png",
+  "homepage": "http://www.kbide.org"
+}

@@ -1,0 +1,16 @@
+{
+  "name" : "kb-tridenttd-linenotify-library",
+  "title": "TridentTD_LineNotify",
+  "keywords": "FreeRTOS, ESP32, frameworks",
+  "description": "LINE notify library for ESP8266 & ESP32",
+  "git": "https://github.com/jackrobotics/kb-tridenttd-linenotify-library/",
+  "author": "Original TridentTD Version 3.0.1 | migrate by Sonthaya Boonchan",
+  "email": "sonthaya.b@honey.co.th",
+  "url": "https://github.com/jackrobotics/kb-tridenttd-linenotify-library/",
+  "version": "1.0.0",
+  "board" : "",
+  "platform": ["arduino-esp32"],
+  "license": "MIT",
+  "image" : "/static/display.png",
+  "homepage": "https://github.com/jackrobotics/kb-tridenttd-linenotify-library"
+}

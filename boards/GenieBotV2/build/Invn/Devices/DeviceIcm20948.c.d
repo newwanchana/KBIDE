@@ -1,0 +1,19 @@
+C:\Users\print\AppData\Local\Programs\kbide\\boards\\GenieBotV2\\build\\Invn\\Devices\\DeviceIcm20948.c.o: \
+ c:\users\print\appdata\local\programs\kbide\boards\geniebotv2\include\invn\devices\deviceicm20948.c \
+ c:\users\print\appdata\local\programs\kbide\boards\geniebotv2\include\invn\devices\DeviceIcm20948.h \
+ c:\users\print\appdata\local\programs\kbide\boards\geniebotv2\include\invn\invexport.h \
+ c:\users\print\appdata\local\programs\kbide\boards\geniebotv2\include\invn\devices\device.h \
+ c:\users\print\appdata\local\programs\kbide\boards\geniebotv2\include\invn\invbool.h \
+ c:\users\print\appdata\local\programs\kbide\boards\geniebotv2\include\invn\inverror.h \
+ c:\users\print\appdata\local\programs\kbide\boards\geniebotv2\include\invn\devices\sensortypes.h \
+ c:\users\print\appdata\local\programs\kbide\boards\geniebotv2\include\invn\devices\sensorconfig.h \
+ c:\users\print\appdata\local\programs\kbide\boards\geniebotv2\include\invn\devices\hostserif.h \
+ c:\users\print\appdata\local\programs\kbide\boards\geniebotv2\include\invn\devices\serifhal.h \
+ c:\users\print\appdata\local\programs\kbide\boards\geniebotv2\include\invn\devices\drivers\icm20948\icm20948.h \
+ c:\users\print\appdata\local\programs\kbide\boards\geniebotv2\include\invn\devices\drivers\icm20948\Icm20948Setup.h \
+ c:\users\print\appdata\local\programs\kbide\boards\geniebotv2\include\invn\devices\drivers\icm20948\Icm20948Serif.h \
+ c:\users\print\appdata\local\programs\kbide\boards\geniebotv2\include\invn\devices\drivers\icm20948\Icm20948Transport.h \
+ c:\users\print\appdata\local\programs\kbide\boards\geniebotv2\include\invn\devices\drivers\icm20948\Icm20948DataConverter.h \
+ c:\users\print\appdata\local\programs\kbide\boards\geniebotv2\include\invn\devices\drivers\icm20948\Icm20948AuxCompassAkm.h \
+ c:\users\print\appdata\local\programs\kbide\boards\geniebotv2\include\invn\devices\drivers\icm20948\Icm20948SelfTest.h \
+ c:\users\print\appdata\local\programs\kbide\boards\geniebotv2\include\invn\embutils\message.h

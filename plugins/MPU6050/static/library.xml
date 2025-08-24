@@ -1,0 +1,618 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="Zvw.,7E2:(n(gWkpV_GK" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"/>
+    <field name="NAME">mpu6050_begin</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="_ZGAlWbi.637[Acs-8~c">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="LAqjzzoK^@`qY=JZ;ku`">
+            <field name="TEXT">MPU6050 begin address</field>
+            <next>
+              <block type="field_dropdown" id="B18uY/ac#F1ET_4=(dC{">
+                <mutation options="[&quot;text&quot;,&quot;text&quot;]"/>
+                <field name="FIELDNAME">addr</field>
+                <field name="USER0">0x68</field>
+                <field name="CPU0">0x68</field>
+                <field name="USER1">0x69</field>
+                <field name="CPU1">0x69</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="!i$KmaC`:bN;jB4zG[CO">
+            <field name="INPUTNAME">pin_sda</field>
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="d@zL_+L;./];fHKxi(Ab">
+                <field name="TEXT">SDA</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="b9Wb!-Y_#FJI_F@?[PfC"/>
+              <block type="type_number" id="csoJ^+e/aTC$!]HngO?e"/>
+            </value>
+            <next>
+              <block type="input_value" id="/[sxJ#uwU$YAWG/l]l;d">
+                <field name="INPUTNAME">pin_scl</field>
+                <field name="ALIGN">LEFT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="^PXZB3H`Wn_5IWlXDyJq">
+                    <field name="TEXT">SCL</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="0LP3J!i[o%`a3(v4bQNe"/>
+                  <block type="type_number" id="_^iw!ahScpdekB11n:-l"/>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="%CAk7.tCxlEl}|2.a#n3" deletable="false" movable="false">
+        <field name="TEXT">begin mpu6050</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="-OeR6b6XJ`Z564jZ#]-W" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="h98.w-vHuu~0]IQ.a~;U"/>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="*-5*^PAU.p{Cm8a4`sM#"/>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="gC5|$w*ZxZ{TK8Pr-CA^">
+        <mutation colour="#a55b6d"/>
+        <field name="HUE">345</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="U)xk.=uKZEz#;m8^pBhg" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">mpu6050_get_acc_x</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="v*ey7J$B|DlmkoTJoG#0">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="TLRr/%%Ir@}_#Cf{!$F+">
+            <field name="TEXT">MPU6050 get acceleration X</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="?uH8}!Fdhc)v^:oxlJ)0" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="K,{je(H}K_1MLeyl?3QS" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="%T^CP1yzESIhtKIG)5Gz"/>
+      <block type="type_group" id="+]TNOYj=ud[{B71mvK4g">
+        <mutation types="2"/>
+        <value name="TYPE0">
+          <block type="type_other" id="WwGLo:EgB=%X!d]jxSEQ">
+            <field name="TYPE">float</field>
+          </block>
+        </value>
+        <value name="TYPE1">
+          <block type="type_number" id="?pv]2@9(1H.c)fRLu?As"/>
+        </value>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="%TXS{2RRlfK8uXo{/]Gr">
+        <mutation colour="#a55b6d"/>
+        <field name="HUE">345</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="U)xk.=uKZEz#;m8^pBhg" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">mpu6050_get_acc_y</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="v*ey7J$B|DlmkoTJoG#0">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="TLRr/%%Ir@}_#Cf{!$F+">
+            <field name="TEXT">MPU6050 get acceleration Y</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="?uH8}!Fdhc)v^:oxlJ)0" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="K,{je(H}K_1MLeyl?3QS" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="q9QcM$gvHGOS0oka_P{d"/>
+      <block type="type_group" id="+]TNOYj=ud[{B71mvK4g">
+        <mutation types="2"/>
+        <value name="TYPE0">
+          <block type="type_other" id="WwGLo:EgB=%X!d]jxSEQ">
+            <field name="TYPE">float</field>
+          </block>
+        </value>
+        <value name="TYPE1">
+          <block type="type_number" id="?pv]2@9(1H.c)fRLu?As"/>
+        </value>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="%TXS{2RRlfK8uXo{/]Gr">
+        <mutation colour="#a55b6d"/>
+        <field name="HUE">345</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="U)xk.=uKZEz#;m8^pBhg" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">mpu6050_get_acc_z</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="v*ey7J$B|DlmkoTJoG#0">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="TLRr/%%Ir@}_#Cf{!$F+">
+            <field name="TEXT">MPU6050 get acceleration Z</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="?uH8}!Fdhc)v^:oxlJ)0" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="K,{je(H}K_1MLeyl?3QS" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="u;7LFL^tlc.XiS4xW1RV"/>
+      <block type="type_group" id="+]TNOYj=ud[{B71mvK4g">
+        <mutation types="2"/>
+        <value name="TYPE0">
+          <block type="type_other" id="WwGLo:EgB=%X!d]jxSEQ">
+            <field name="TYPE">float</field>
+          </block>
+        </value>
+        <value name="TYPE1">
+          <block type="type_number" id="?pv]2@9(1H.c)fRLu?As"/>
+        </value>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="%TXS{2RRlfK8uXo{/]Gr">
+        <mutation colour="#a55b6d"/>
+        <field name="HUE">345</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="U)xk.=uKZEz#;m8^pBhg" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">mpu6050_get_gyro_x</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="v*ey7J$B|DlmkoTJoG#0">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="TLRr/%%Ir@}_#Cf{!$F+">
+            <field name="TEXT">MPU6050 get gyro X</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="?uH8}!Fdhc)v^:oxlJ)0" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="K,{je(H}K_1MLeyl?3QS" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="fI86Qu!9U2i;U(sOYzHY"/>
+      <block type="type_group" id="+]TNOYj=ud[{B71mvK4g">
+        <mutation types="2"/>
+        <value name="TYPE0">
+          <block type="type_other" id="WwGLo:EgB=%X!d]jxSEQ">
+            <field name="TYPE">float</field>
+          </block>
+        </value>
+        <value name="TYPE1">
+          <block type="type_number" id="?pv]2@9(1H.c)fRLu?As"/>
+        </value>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="%TXS{2RRlfK8uXo{/]Gr">
+        <mutation colour="#a55b6d"/>
+        <field name="HUE">345</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="U)xk.=uKZEz#;m8^pBhg" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">mpu6050_get_gyro_y</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="v*ey7J$B|DlmkoTJoG#0">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="TLRr/%%Ir@}_#Cf{!$F+">
+            <field name="TEXT">MPU6050 get gyro Y</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="?uH8}!Fdhc)v^:oxlJ)0" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="K,{je(H}K_1MLeyl?3QS" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="TJJ8BP1ga:|;M!Tdy-F@"/>
+      <block type="type_group" id="+]TNOYj=ud[{B71mvK4g">
+        <mutation types="2"/>
+        <value name="TYPE0">
+          <block type="type_other" id="WwGLo:EgB=%X!d]jxSEQ">
+            <field name="TYPE">float</field>
+          </block>
+        </value>
+        <value name="TYPE1">
+          <block type="type_number" id="?pv]2@9(1H.c)fRLu?As"/>
+        </value>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="%TXS{2RRlfK8uXo{/]Gr">
+        <mutation colour="#a55b6d"/>
+        <field name="HUE">345</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="U)xk.=uKZEz#;m8^pBhg" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">mpu6050_get_gyro_z</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="v*ey7J$B|DlmkoTJoG#0">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="TLRr/%%Ir@}_#Cf{!$F+">
+            <field name="TEXT">MPU6050 get gyro Z</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="?uH8}!Fdhc)v^:oxlJ)0" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="K,{je(H}K_1MLeyl?3QS" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="#oPlAjykrv%me#mC$7Gt"/>
+      <block type="type_group" id="+]TNOYj=ud[{B71mvK4g">
+        <mutation types="2"/>
+        <value name="TYPE0">
+          <block type="type_other" id="WwGLo:EgB=%X!d]jxSEQ">
+            <field name="TYPE">float</field>
+          </block>
+        </value>
+        <value name="TYPE1">
+          <block type="type_number" id="?pv]2@9(1H.c)fRLu?As"/>
+        </value>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="%TXS{2RRlfK8uXo{/]Gr">
+        <mutation colour="#a55b6d"/>
+        <field name="HUE">345</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="U)xk.=uKZEz#;m8^pBhg" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">mpu6050_get_angle_acc_z</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="v*ey7J$B|DlmkoTJoG#0">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="TLRr/%%Ir@}_#Cf{!$F+">
+            <field name="TEXT">MPU6050 get angle accelerometer Z</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="?uH8}!Fdhc)v^:oxlJ)0" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="K,{je(H}K_1MLeyl?3QS" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="GYEFg?%c;+)u`vX%{XHW"/>
+      <block type="type_group" id="+]TNOYj=ud[{B71mvK4g">
+        <mutation types="2"/>
+        <value name="TYPE0">
+          <block type="type_other" id="WwGLo:EgB=%X!d]jxSEQ">
+            <field name="TYPE">float</field>
+          </block>
+        </value>
+        <value name="TYPE1">
+          <block type="type_number" id="?pv]2@9(1H.c)fRLu?As"/>
+        </value>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="%TXS{2RRlfK8uXo{/]Gr">
+        <mutation colour="#a55b6d"/>
+        <field name="HUE">345</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="U)xk.=uKZEz#;m8^pBhg" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">mpu6050_get_angle_acc_y</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="v*ey7J$B|DlmkoTJoG#0">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="TLRr/%%Ir@}_#Cf{!$F+">
+            <field name="TEXT">MPU6050 get angle accelerometer Y</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="?uH8}!Fdhc)v^:oxlJ)0" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="K,{je(H}K_1MLeyl?3QS" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="L-Qd(JF(`!v.kq4GUP|@"/>
+      <block type="type_group" id="+]TNOYj=ud[{B71mvK4g">
+        <mutation types="2"/>
+        <value name="TYPE0">
+          <block type="type_other" id="WwGLo:EgB=%X!d]jxSEQ">
+            <field name="TYPE">float</field>
+          </block>
+        </value>
+        <value name="TYPE1">
+          <block type="type_number" id="?pv]2@9(1H.c)fRLu?As"/>
+        </value>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="%TXS{2RRlfK8uXo{/]Gr">
+        <mutation colour="#a55b6d"/>
+        <field name="HUE">345</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="U)xk.=uKZEz#;m8^pBhg" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">mpu6050_get_angle_acc_x</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="v*ey7J$B|DlmkoTJoG#0">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="TLRr/%%Ir@}_#Cf{!$F+">
+            <field name="TEXT">MPU6050 get angle accelerometer X</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="?uH8}!Fdhc)v^:oxlJ)0" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="K,{je(H}K_1MLeyl?3QS" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="}+!Mp;7q++Ebc:mT(lDT"/>
+      <block type="type_group" id="+]TNOYj=ud[{B71mvK4g">
+        <mutation types="2"/>
+        <value name="TYPE0">
+          <block type="type_other" id="WwGLo:EgB=%X!d]jxSEQ">
+            <field name="TYPE">float</field>
+          </block>
+        </value>
+        <value name="TYPE1">
+          <block type="type_number" id="?pv]2@9(1H.c)fRLu?As"/>
+        </value>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="%TXS{2RRlfK8uXo{/]Gr">
+        <mutation colour="#a55b6d"/>
+        <field name="HUE">345</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="U)xk.=uKZEz#;m8^pBhg" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">mpu6050_get_angle_gyro_x</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="v*ey7J$B|DlmkoTJoG#0">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="TLRr/%%Ir@}_#Cf{!$F+">
+            <field name="TEXT">MPU6050 get angle gyro X</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="?uH8}!Fdhc)v^:oxlJ)0" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="K,{je(H}K_1MLeyl?3QS" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id=",I:d2}Z7/;cqCQ:YTpgz"/>
+      <block type="type_group" id="+]TNOYj=ud[{B71mvK4g">
+        <mutation types="2"/>
+        <value name="TYPE0">
+          <block type="type_other" id="WwGLo:EgB=%X!d]jxSEQ">
+            <field name="TYPE">float</field>
+          </block>
+        </value>
+        <value name="TYPE1">
+          <block type="type_number" id="?pv]2@9(1H.c)fRLu?As"/>
+        </value>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="%TXS{2RRlfK8uXo{/]Gr">
+        <mutation colour="#a55b6d"/>
+        <field name="HUE">345</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="U)xk.=uKZEz#;m8^pBhg" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">mpu6050_get_angle_gyro_y</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="v*ey7J$B|DlmkoTJoG#0">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="TLRr/%%Ir@}_#Cf{!$F+">
+            <field name="TEXT">MPU6050 get angle gyro Y</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="?uH8}!Fdhc)v^:oxlJ)0" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="K,{je(H}K_1MLeyl?3QS" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="zg=v4*g@.M`.mu,8VL9/"/>
+      <block type="type_group" id="+]TNOYj=ud[{B71mvK4g">
+        <mutation types="2"/>
+        <value name="TYPE0">
+          <block type="type_other" id="WwGLo:EgB=%X!d]jxSEQ">
+            <field name="TYPE">float</field>
+          </block>
+        </value>
+        <value name="TYPE1">
+          <block type="type_number" id="?pv]2@9(1H.c)fRLu?As"/>
+        </value>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="%TXS{2RRlfK8uXo{/]Gr">
+        <mutation colour="#a55b6d"/>
+        <field name="HUE">345</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="U)xk.=uKZEz#;m8^pBhg" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">mpu6050_get_angle_gyro_z</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="v*ey7J$B|DlmkoTJoG#0">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="TLRr/%%Ir@}_#Cf{!$F+">
+            <field name="TEXT">MPU6050 get angle gyro Z</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="?uH8}!Fdhc)v^:oxlJ)0" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="K,{je(H}K_1MLeyl?3QS" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="o0X{qmHA/C5r@er8m`9l"/>
+      <block type="type_group" id="+]TNOYj=ud[{B71mvK4g">
+        <mutation types="2"/>
+        <value name="TYPE0">
+          <block type="type_other" id="WwGLo:EgB=%X!d]jxSEQ">
+            <field name="TYPE">float</field>
+          </block>
+        </value>
+        <value name="TYPE1">
+          <block type="type_number" id="?pv]2@9(1H.c)fRLu?As"/>
+        </value>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="%TXS{2RRlfK8uXo{/]Gr">
+        <mutation colour="#a55b6d"/>
+        <field name="HUE">345</field>
+      </block>
+    </value>
+  </block></xml>

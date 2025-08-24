@@ -1,0 +1,16 @@
+{
+  "name" : "Pulsein",
+  "title": "Pulsein",
+  "category" : "Sensors",
+  "keywords": "fs sky,remote,plusein,pluse,Pluse,Pulsein,flysky",
+  "description": "Reads a pulse (either HIGH or LOW) on a pin.",
+  "homepage": "https://github.com/bogde/HX711/",
+  "license": "MIT",
+  "git": "https://github.com/PrinceBot-Ratthanin/kbide-Pulsein/",
+  "author": "block by PrinceBot",
+  "url": "https://github.com/PrinceBot-Ratthanin/kbide-Pulsein/",
+  "version": "0.0.1",
+  "board" : "",
+  "platform": ["arduino-avr","arduino-esp32"],
+  "image" : "/static/display.png"
+}

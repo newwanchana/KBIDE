@@ -1,0 +1,16 @@
+{
+  "name" : "MPU6050",
+  "title": "MPU6050",
+  "keywords": "MPU6050, gy-521, accelerometer, gyro, IMU",
+  "description": "KBIDE Plugin for MPU6050 6-DoF",
+  "git": "https://github.com/KhonKaenMakerClub/kbide-mpu6050/",
+  "author": "tockn | block by Comdet",
+  "email": "comdet@kbide.org",
+  "url": "https://github.com/Tockn/MPU6050_tockn",
+  "version": "1.0.0",
+  "platform": ["arduino-esp32"],
+  "category" : "Sensors",
+  "license": "MIT",
+  "image" : "/static/display.jpg",
+  "homepage": "https://github.com/Tockn/MPU6050_tockn/"
+}

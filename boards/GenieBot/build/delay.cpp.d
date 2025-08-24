@@ -1,0 +1,20 @@
+C:\Users\woott\AppData\Local\Programs\KBProIDE\\boards\\GenieBot\\build\\delay.cpp.o: \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\cores\rp2040\delay.cpp \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\pico-sdk\src\common\pico_base\include\pico.h \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\pico-sdk\src\common\pico_base\include\pico/types.h \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\pico-sdk\src\common\pico_base\include\pico\assert.h \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\include\pico_base\pico\version.h \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\pico-sdk\src\common\pico_base\include\pico/config.h \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\include\pico_base\pico\config_autogen.h \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\pico-sdk\src\boards\include\boards\pico.h \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\pico-sdk\src\common\pico_base\include\pico\types.h \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\pico-sdk\src\common\pico_base\include\pico/error.h \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\pico-sdk\src\common\pico_time\include\pico\time.h \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\pico-sdk\src\rp2_common\hardware_timer\include\hardware\timer.h \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\timer.h \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h \
+ c:\users\woott\appdata\local\programs\kbproide\platforms\arduino-pico\sdk\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\timer.h

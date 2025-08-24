@@ -1,0 +1,9 @@
+{
+    "build": {
+        "usbpid": "-DUSBD_VID=0x2e8a",
+        "usbvid": "-DUSBD_PID=0x000a",
+        "usbpwr": "-DUSBD_MAX_POWER_MA=250",
+        "usb_manufacturer": "-D\"USB_MANUFACTURER=\\\"PoppyBot\\\"\"",
+        "usb_product": "-D\"USB_PRODUCT=\\\"PoppyBot\\\"\""
+    }
+}
